@@ -1,10 +1,8 @@
 import os
 import unittest
-import numpy as np
-import skimage as ski
-from img2map import get_image_contours, contour_to_polygon, polygon_to_html_area, polygons_to_html_map, \
-    contours_to_html_map, image_to_html_map, polygon_to_polygon_svg, polygons_to_svg, contours_to_svg, image_to_svg, \
-    get_image_contours_polygons, get_positive_orientation
+
+from img2map.svg import *
+from img2map.html import *
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
